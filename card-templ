@@ -1,0 +1,52 @@
+
+
+
+
+    <template id="card-templ">
+      <div class="grey card">
+        <div class="content">
+
+          {{-- <div class="ui tiny circular fade reveal image">
+            <img src="/img/agents/sq.png" id="agentId{{$i}}" class="hidden content">
+          </div><br> --}}
+
+          <div class="ui mini bordered images">
+            <img src="/img/agents/red.jpg" @click="revealAgent('/img/agents/red.jpg','cardId')">
+
+            <img src="/img/agents/blue.jpg" @click="revealAgent('/img/agents/blue.jpg',@{{cardId}})">
+
+            <img src="/img/agents/bystander.jpg" @click="revealAgent('/img/agents/bystander.jpg',@{{cardId}})">
+
+            <img src="/img/agents/assassin.jpeg" class="right floated" @click="revealAgent('/img/agents/assassin.jpeg',@{{cardId}})">
+          </div>
+
+        </div>
+
+        <div class="content">
+          {{-- <div class="ui fluid circular fade reveal image"> --}}
+
+            <img id="cardId" class="ui mini circular fluid image">
+          {{-- </div> --}}
+          <h4 class="right floated ui grey header">
+            Washington Wizard
+          </h4>
+        </div>
+
+
+      </div>
+    </template>
+
+    // Vue.component('card', {
+    //   template: '#card-templ',
+    //   props: ['badge'],
+    //   data: {
+    //     cardId: function() {
+    //       return this.badge;
+    //     }
+    //   },
+    //   methods: {
+    //     revealAgent: function(agent, cardId, wordId) {
+    //       document.getElementById(cardId).setAttribute("src", agent);
+    //     }
+    //   }
+    // });

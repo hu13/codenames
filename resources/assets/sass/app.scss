@@ -1,0 +1,10 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//need gulp recompile after modifications
+
+$primary: red;
+
+body {
+  color: $primary;
+  background-color: black;
+}

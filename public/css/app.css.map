@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAMA;EACE,WAHW;EAIX,uBAAuB,EACxB","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n//need gulp recompile after modifications\n\n$primary: red;\n\nbody {\n  color: $primary;\n  background-color: blue;\n}\n"],"sourceRoot":"/source/"}
