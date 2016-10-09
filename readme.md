@@ -32,4 +32,4 @@ I was learning laravel and vue.js in the summer of 2016. To make my learning fun
 
 ## DEMO
 
-![alt tag](http:./Demo.png) 
+![alt tag](https://github.com/hu13/codenames/blob/master/Demo.png) 
